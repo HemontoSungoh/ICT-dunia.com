@@ -1,0 +1,433 @@
+
+/*		Default Layout: 1024px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.container{
+	width: 1024px ;
+	display: block;
+	margin: 0 auto;
+}
+#selectnav1{
+	display: none;
+	height: 44px;
+	background: #fff;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#selectnav1{
+	display: block;
+}
+
+#mainmenu{
+	display: none;
+	height : 30px;
+}
+.container{
+	width: 99% ;
+}
+
+#mainmenu{
+	display: none;
+}
+.top_tme_input{
+	width: 100%;
+}
+.begeneers{
+	display: none;
+}
+.section_bottom_part{
+	width: 100%;
+}
+.section_bottom_part .left_side{
+	width: 30%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.section_bottom_part .middle h3{
+	font-size: 17px;
+}
+.section_bottom_part .left_side h3{
+	font-size: 18px;
+}
+.section_bottom_part .right_side h3{
+	font-size: 18px;
+}
+.section_bottom_part h2{
+	width: 32%;
+	margin-left: 30%;
+	font-size: 23px;
+}
+.section_bottom_part .middle{
+	width: 30%;
+	margin-right: 2%;
+}
+.section_bottom_part .right_side{
+	width: 30%;
+}
+.content_wrapper h2{
+	width: 32%;
+	margin-left: none;
+	margin-left: 30%;
+	font-size: 23px;
+	margin-bottom: 88px;
+}
+.content_wrapper{
+	width: 100%;
+}
+.content_flip_box_1{
+	width: 23%;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+.content_flip_box_2{
+	width: 23%;
+	margin-right: 1%;
+}
+.content_flip_box_3{
+	width: 23%;
+	margin-right: 1%;
+}
+.content_flip_box_4{
+	width: 23%;
+}
+#jquiry_slider_wrapper h2{
+	width: 32%;
+	margin-left: none;
+	margin-left: 30%;
+	font-size: 23px;
+}
+.video_part{
+	width: 100%;
+}
+.video_part h2{
+	width: 30%;
+	margin-left: 30%;
+	font-size: 23px;
+}
+.video_part .video_1{
+	width: 100%;
+	margin-right: 0;
+	
+}
+.video_part .video_2{
+	width: 100%;
+	margin-right: 0;
+}
+.Team_flip_box_wrapper{
+	display: none;
+}
+
+.main_foote{
+	width: 100%;
+}
+.main_footer .left_footer{
+	width: 20%;
+	margin-left: 0%;
+}
+.main_footer .middle_foote{
+	width: 30%;
+	margin-left: 1%;
+}
+.main_footer .right_footer{
+	width: 45%;
+}
+.main_footer .right_footer h3{
+	margin-left: 0;
+}
+.right_footer .button_slider_P1{
+	margin-left: 0;
+}
+.footer_bottom{
+	
+	color: #000;
+	
+}
+.footer_bottom span{
+	font-weight: bold;
+}
+.textbtn {
+    margin-left: 196px;
+    margin-top: 6px;
+    width: 31%;
+
+}
+
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width:767px) {
+#selectnav1{
+	display: block;
+}
+
+#mainmenu{
+	display: none;
+}
+.container{
+	width: 99% ;
+}
+
+.begeneers{
+	display: none;
+}
+.time{
+	border-right: none;
+}
+.textbtn{
+	margin-left: -3%;
+}
+.slider_part_1{
+	display: none;
+}
+.section_bottom_part .left_side{
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 1%;
+}
+.section_bottom_part .middle{
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 1%;
+	margin-top: 2%;
+}
+.section_bottom_part .right_side{
+	width:100%;
+	margin-right: 0%;
+	margin-left: 1%;
+	margin-top: 2%;
+}
+.section_bottom_part h2{
+	width: 50%;
+	margin-left: 18%;
+	font-size: 18px;
+}
+.content_wrapper{
+	display: none;
+}
+#jquiry_slider_wrapper h2{
+	width: 50%;
+	margin-left: 18%;
+	font-size: 15px;
+}
+.video_part{
+	width: 100%;
+}
+.video_part .video_1{
+	width: 100%;
+}
+.video_part .video_2{
+	width: 100%;
+}
+.video_part h2{
+	width: 50%;
+	margin-left: 56px;
+	border-left: 1px solid #A7A937;
+	font-size: 18px;
+}
+
+.Team_flip_box_wrapper{
+	display: none;
+}
+.main_footer{
+	width: 100%;
+}
+.main_footer .left_footer{
+	display: none;
+}
+.main_footer .middle_footer{
+	display: none;
+}
+.main_footer .right_footer h3{
+	margin-left: 4%;
+	margin-bottom: -5%;
+	width: 100%;
+}
+.right_footer .button_slider_P1{
+	margin-top: 9%;
+	margin-left: 0%;
+}
+.main_footer .right_footer {
+	width: 67%;
+}
+.footer_bottom{
+	display: none;
+}
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#selectnav1{
+	display: block;
+}
+
+#mainmenu{
+	display: none;
+}
+.container{
+	width: 99% ;
+}
+.section_bottom_part h2{
+	width: 50%;
+	margin-left: 14%;
+	font-size: 20px
+}
+.section_bottom_part .left_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+
+}
+.section_bottom_part .left_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+}
+.section_bottom_part .right_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+}
+#jquiry_slider_wrapper h2{
+	width: 50%;
+	border-left: 1px solid #A7A937;
+	margin-left: 20%;
+	font-size: 20px;
+}
+.video_part h2{
+	width: 50%;
+	margin-left: 121px;
+	border-left: 1px solid #A7A937;
+	font-size: 20px;
+}
+.video_part .video_1{
+	width: 100%;
+}
+.video_part .video_2{
+	width: 100%;
+}
+
+
+
+
+}
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+#selectnav1{
+	display: block;
+}
+
+#mainmenu{
+	display: none;
+}
+.container{
+	width: 99% ;
+}
+.section_bottom_part h2{
+	width: 50%;
+	margin-left: 14%;
+	font-size: 20px
+}
+.section_bottom_part .left_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+
+}
+.section_bottom_part .left_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+}
+.section_bottom_part .right_side{
+	width: 100%;
+	margin-right: 0%;
+    margin-left: 0%;
+}
+#jquiry_slider_wrapper h2{
+	width: 50%;
+	border-left: 1px solid #A7A937;
+	margin-left: 20%;
+	font-size: 20px;
+}
+.video_part h2{
+	width: 50%;
+	margin-left: 121px;
+	border-left: 1px solid #A7A937;
+	font-size: 20px;
+}
+.video_part .video_1{
+	width: 100%;
+}
+.video_part .video_2{
+	width: 100%;
+}
+
+	
+	
+} 
+
+@media only screen  and (min-width : 1224px) {
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
